@@ -1,0 +1,30 @@
+.todoListContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding: 10px;
+  min-height: 22.5rem;
+  height: fit-content;
+
+  border: 1px solid #026F22;
+  border-radius: .5rem;
+  overflow: auto;
+}
+
+.todoListTextEmpty,
+.todoListText {
+  font-size: 1.3rem;
+  margin: auto;
+  line-height: 1.4;
+
+  transition: all .3s linear;
+}
+
+.todoListText {
+  padding-top: .5rem;
+  margin: auto auto .5rem;
+}
+
+.completedTasksCounter {
+  color: #04f185;
+}

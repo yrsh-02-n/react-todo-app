@@ -1,0 +1,75 @@
+.button,
+.buttonForm,
+.buttonControls {
+  font-size: 1.6rem;
+  line-height: 0;
+  color: #04f185;
+
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+
+  transition: all 0.3s ease-in;
+}
+
+.buttonForm {
+  padding: 0;
+  width: 3.75rem;
+  height: auto;
+
+  color: #04f185;
+
+  border: 1px solid #04f185;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.buttonForm:hover {
+  background-color: #04f185;
+  color: #010f13;
+}
+
+.buttonTodoItem,
+.buttonTodoItemCompleted {
+  margin-left: 5px;
+  color: #04f185;
+}
+
+.buttonTodoItemCompleted {
+  color: #026F22;
+}
+
+.buttonTodoItem:hover {
+  scale: 1.3;
+}
+
+.buttonRemoveTodoItem svg {
+  width: 20px;
+}
+
+.buttonRemoveTodoItem:hover {
+  color: #F10459;
+}
+
+.buttonControls {
+  margin: 0 5px;
+  padding: 1rem;
+
+  border: 1px solid #04f185;
+  border-radius: 8px;
+}
+
+.buttonControlsCompleted {
+  color: #026F22;
+}
+
+.buttonControls:hover {
+  background-color: #04f185;
+  color: #010f13;
+}
+
+.buttonControls:disabled {
+  color: #026F22;
+  border: 1px solid #026F22;
+  pointer-events: none;
+}
+

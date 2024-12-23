@@ -1,0 +1,27 @@
+.todoContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 8px 8px 16px;
+  margin-bottom: 10px;
+  max-width: 100%;
+  height: fit-content;
+
+  border: 1px solid #04F185;
+  border-radius: 8px;
+
+  text-align: left;
+  color: #04F185;
+  line-height: 1.6rem;
+}
+
+.todoContainerComplete {
+  background-color: #010D11;
+  border: 1px solid #026f22;
+  color: #026f22;
+}
+
+.todoItemControls {
+  display: flex;
+  align-items: baseline;
+  color: #026f22;
+}

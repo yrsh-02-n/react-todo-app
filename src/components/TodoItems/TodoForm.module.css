@@ -1,0 +1,41 @@
+.form {
+  display: flex;
+  max-width: 100%;
+  margin-top: 2rem;
+}
+
+.input {
+  padding: 0.8rem 1rem;
+  width: 100%;
+
+  font-family: 'Press Start 2P', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1rem;
+  color: #04f185;
+
+  background-color: transparent;
+  border: 1px solid #026f22;
+  border-right: 0;
+  border-radius: 0.5rem 0 0 0.5rem;
+  outline: #04f185;
+}
+
+.input::placeholder {
+  color: #026f22;
+}
+
+.input:focus,
+.input:focus-visible {
+  border: 1px solid #04f185;
+  border-right: 0;
+}
+
+.inputError,
+.inputError::placeholder,
+.inputError:focus,
+.inputError:focus-visible {
+  color: #F10459;
+  border-color: #F10459;
+}
+
+
