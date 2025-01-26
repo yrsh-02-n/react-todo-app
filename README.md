@@ -2,6 +2,8 @@ This is my first application written in React.
 I wanted to expand the functionality of this application, which is basic for a beginner, as much as possible in order to work out more non-obvious points in practice.
 In addition, since I am currently a ux/ui designer, I drew the design and user path myself. If you are interested in taking a look and/or want to use the design for your practice, you can grab it from [Figma here.](https://www.figma.com/design/sEc0RjQQMu5sK4DkE966Ec/Todo-App?node-id=1-2&t=OlmE4URZ1A1dO0HC-1)
 
+You can view the app [here](https://yrsh-02-n.github.io/react-todo-app/)
+
 The application can:
 1. Add and remove tasks
 2. Mark tasks as completed
